@@ -16,5 +16,6 @@ If you wish, you can restart the game at any time convenient for you by clicking
 
 ### Deployment
 
+App was deployed to ("https://rock-paper-scissors-eight-virid.vercel.app/")
 
 
