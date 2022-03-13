@@ -75,7 +75,6 @@ function RockScissorsPaper() {
           <div>
             <h2>Game State: {gameState}</h2>
           </div>
-          <button onClick={reStartGame}>Restart the game</button>
         </div>
 
         <div className="gameZone">
@@ -123,6 +122,12 @@ function RockScissorsPaper() {
             />
           </div>
         </div>
+      </div>
+
+      <div className="restartDiv">
+        <button onClick={reStartGame} className="restartBtn">
+          Restart the game
+        </button>
       </div>
     </>
   );
