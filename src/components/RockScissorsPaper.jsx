@@ -67,10 +67,10 @@ function RockScissorsPaper() {
       <div className="container">
         <div className="scoreZone">
           <div>
-            <h2>Computer Score: {compScore} </h2>
+            <h2>Computer: {compScore} </h2>
           </div>
           <div>
-            <h2>Your Score: {userScore} </h2>
+            <h2>You: {userScore} </h2>
           </div>
           <div>
             <h2>Game State: {gameState}</h2>
@@ -79,11 +79,15 @@ function RockScissorsPaper() {
 
         <div className="gameZone">
           <div className="info">
-            <h2>Your Choice: {userChoice.name}</h2>
+            <h2> {userChoice.name}</h2>
           </div>
 
           <div className="info2">
-            <h2>Computer Choice: {computerChoice.name}</h2>
+            <h2>VS</h2>
+          </div>
+
+          <div className="info3">
+            <h2>{computerChoice.name}</h2>
           </div>
 
           <div className="gamerZone">
