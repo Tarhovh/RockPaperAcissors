@@ -1,0 +1,89 @@
+.App {
+  text-align: start;
+}
+
+header,
+.finalState {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  margin-top: 50px;
+  display: flex;
+  height: 50vh;
+  background-color: azure;
+}
+
+.scoreZone {
+  width: 29%;
+  margin-left: 10px;
+  background-color: aquamarine;
+}
+
+.scoreZone > button {
+  border-radius: 20px;
+  width: 100px;
+  height: 50px;
+  margin: 35px 0px 0px 150px;
+  background-color: rgb(211, 198, 192);
+}
+
+h2 {
+  margin-left: 15px;
+  font-size: 1.5rem;
+}
+
+.gameZone {
+  margin-left: 10px;
+  display: flex;
+  width: 70%;
+  flex-direction: row;
+  flex-flow: wrap;
+}
+
+.info {
+  display: flex;
+  width: 50%;
+  align-self: flex-end;
+  order: 1;
+  gap: 100px 25px;
+  justify-content: center;
+  background-color: aqua;
+}
+
+.info2 {
+  display: flex;
+  width: 48%;
+  align-self: flex-end;
+  order: 2;
+  gap: 100px 25px;
+  justify-content: center;
+  background-color: rgb(90, 105, 247);
+}
+
+.gamerZone {
+  order: 3;
+  display: flex;
+  justify-content: space-around;
+  width: 50%;
+  height: 40%;
+  background-color: aqua;
+  align-self: flex-end;
+}
+
+.compZone {
+  order: 4;
+  display: flex;
+  justify-content: center;
+  align-self: flex-end;
+  width: 48%;
+  height: 40%;
+  background-color: rgb(90, 105, 247);
+}
+
+.gamer-choice,
+.computer-choice {
+  width: 10vw;
+  height: 15vh;
+}
