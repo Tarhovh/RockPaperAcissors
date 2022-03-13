@@ -97,8 +97,9 @@ h2 {
 }
 
 @media screen and (max-width: 900px) {
-  header, h1,
-.finalState {
+  h1 {
+    display: flex;
+    justify-content: center;
     font-size: 1.3rem;
   }
   h2 {
